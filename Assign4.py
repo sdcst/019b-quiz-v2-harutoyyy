@@ -26,9 +26,13 @@ while True:
     
     if name in list:
         print("Your name is on the list")
-        break
     elif name not in list:
         list.append(name)
-    print(list)
+       
+    elif name.strip() == "":
+        print(list)
+        break
+      
+    
     
         
