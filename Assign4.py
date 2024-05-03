@@ -18,3 +18,17 @@ invitations to send.
 This program will require you to incorporate everything we
 have learned so far.
 """
+
+
+list = []
+while True:
+    name = input("Enter your full name")
+    
+    if name in list:
+        print("Your name is on the list")
+        break
+    elif name not in list:
+        list.append(name)
+    print(list)
+    
+        
